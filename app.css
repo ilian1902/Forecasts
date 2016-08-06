@@ -1,0 +1,96 @@
+
+/*All web start*/
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+#wrapper {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+
+
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+#wrapper{
+    background: #f9dc1c;
+    width: 960px;
+    height: auto;
+}
+.logo > a > img {
+    max-height: 45px;
+}
+body{
+    background: #113d31;
+}
+/*All web end*/
+/*Header start*/
+#header{
+    background: #027b5b url("img/football.png")100% 100% no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.center-item{
+    background: #027b5b;
+    width: 100%;
+}
+
+
+.navbar-custom{
+    color: #f9dc1c;
+    background-color: #f9dc1c;
+}
+/*Header end*/
+
+
+#content{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background: #f9dc1c;
+}
+/*Forcast start*/
+#forcast{
+    text-align: center;
+}
+
+.list-item{
+    margin: 50px;
+    list-style-type: none;
+}
+.list-item strong{
+    font-size: 1.5em;
+    margin-right: 20px;
+    color: red;
+}
+.list-item span{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #027b5b;
+}
+.list-item img{
+    margin-left: 20px;
+    width: 5%;
+    height: 5%;
+}
+
+
+
+/*Forcast end*/
+#footer {
+    position: absolute;
+    bottom:0;
+    width: 960px;
+    height: 60px;
+}
+

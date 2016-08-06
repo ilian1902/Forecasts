@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forecasts</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="app.css">
+    <base href="/">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-cookies.min.js"></script>
+
+</head>
+<body ng-app="myTripsApp" ng-cloak>
+<div id="wrapper" class="center-block">
+    <header>
+        <div id="header"></div>
+        <div class="container center-item center-block">
+            <nav class="navbar navbar-default navbar-custom">
+                <div class="container-fluid">
+                    <div class="logo navbar-header">
+                        <a href="#/">
+                            <img src="img/Logo.svg.png" alt="logo"><strong class="text-uppercase">MyTips</strong>
+                        </a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="#/">Начало</a>
+                        </li>
+                        <li>
+                            <a href="#/log-in">Log In</a>
+                        </li>
+                        <li>
+                            <a href="#/statistic">Статистика</a>
+                        </li>
+                        <li>
+                            <a href="#/forecasts">Прогнози</a>
+                        </li>
+                        <li>
+                            <a href="#/history">История</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <section id="content">
+        <div ng-view>
+
+        </div>
+    </section>
+    <footer id="footer">
+            <div class="modal-footer container center-item center-block">
+                <p class="text-muted credit">Създаден от: <a class="btn" href="http://venilda.netcoms.eu">VENILDA</a>.</p>
+            </div>
+    </footer>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="Scripts/app.js"></script>
+
+<script src="Scripts/controllers/HomePageController.js"></script>
+<script src="Scripts/controllers/ForecastsController.js"></script>
+<script src="Scripts/controllers/StatisticsController.js"></script>
+<script src="Scripts/controllers/AbouthController.js"></script>
+
+</body>
+</html>
