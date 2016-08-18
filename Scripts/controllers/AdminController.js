@@ -3,6 +3,10 @@
 
     function AdminController(){
 
+        
+
+        
+
     }
 
     angular.module('myTripsApp.controllers').controller('AdminController', [AdminController]);
