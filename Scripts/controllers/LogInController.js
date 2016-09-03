@@ -1,12 +1,21 @@
-/**
- * Created by Ilian on 05/06/2016.
- */
-(function (){
+(function () {
     'use strict';
 
-    function LogInController(){
+    function LogInController() {
+
+        var vm = this;
+        
+        var userName = $('#user-name');
+        var userPassword = $('#user-password');
+        var button = $('#button');
+
+        button.click(function(){
+            console.log(vm.userName.val());
+        });
+
 
     }
 
+
     angular.module('myTripsApp.controllers').controller('LogInController', [LogInController]);
-}());
+} ());

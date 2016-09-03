@@ -23,6 +23,7 @@ img{
     height: auto;
 }
 #wrapper{
+    position: relative;
     background: #f9dc1c;
     width: 960px;
     height: auto;
@@ -91,6 +92,7 @@ body{
 
 
 /*Forcast end*/
+
 #footer {
     position: absolute;
     bottom:0;

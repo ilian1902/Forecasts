@@ -6,6 +6,8 @@
 
     function StatisticsController(){
 
+        
+
     }
 
     angular.module('myTripsApp.controllers').controller('StatisticsController', [StatisticsController]);
